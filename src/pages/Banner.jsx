@@ -4,6 +4,7 @@ import bgImg from "../images/bg-transformer.jpg";
 import MovieContent from "../components/MovieContent";
 import MovieDate from "../components/MovieDate";
 import PlayBtn from "../components/PlayBtn";
+import MovieSwiper from "../components/MovieSwiper";
 
 const Banner = () => {
   const [movies, setMovies] = useState([]);
@@ -30,11 +31,12 @@ const Banner = () => {
             </div>
             <div className="col-lg-6 col-md-12">
               <MovieDate />
-              <PlayBtn/>
+              <PlayBtn />
             </div>
           </div>
         </div>
       </div>
+      {movies && movies.length>0 && <MovieSwiper slides={movies} />}
     </div>
   );
 };

@@ -1,8 +1,7 @@
-import React from 'react'
-import './movieContent.css'
+import React from "react";
+import "./movieContent.css";
 import titleImg from "../images/transformer-title.png";
-import Button from './Button';
-
+import Button from "./Button";
 
 const MovieContent = () => {
   return (
@@ -24,11 +23,18 @@ const MovieContent = () => {
           praesentium, ut minima reiciendis.
         </p>
         <div className="button">
-            <Button />
+          <Button
+            icon={<ion-icon name="bookmark-outline"></ion-icon>}
+            name="BOOK"
+            color="#ff3700"
+            bgColor="white"
+          />
+
+          <Button icon={<ion-icon name="add-outline"></ion-icon>}  name='MY LIST' />
         </div>
       </div>
     </>
   );
-}
+};
 
-export default MovieContent
+export default MovieContent;

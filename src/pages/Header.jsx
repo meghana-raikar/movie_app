@@ -3,6 +3,7 @@ import NavListItem from '../components/NavListItem'
 import navListData from '../data/navListData';
 import './header.css'
 import Search from '../components/Search';
+import Button from '../components/Button';
 
 
 const Header = () => {
@@ -20,8 +21,8 @@ const Header = () => {
       <NavListItem name="Schedule" /> */}
       </ul>
 
-    <Search/>
-
+      <Search />
+      <Button icon={<ion-icon name="log-in-outline"></ion-icon>} name ='SIGN IN' />
     </header>
   );
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import './button.css'
 
-const Button = () => {
+const Button = ({icon, name, color='#ffffff', bgColor='#ff3700'}) => {
   return (
-    <a href="" className="mainBtn">
-      Button
+    <a href="" className="mainBtn" style={{color: color, background: bgColor}}>
+    {icon}  {name}
     </a>
   );
 }
