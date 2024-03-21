@@ -3,24 +3,21 @@ import "./movieContent.css";
 import titleImg from "../images/transformer-title.png";
 import Button from "./Button";
 
-const MovieContent = () => {
+const MovieContent = ({movie}) => {
   return (
     <>
-      <div className="content active">
-        <img src={titleImg} alt="Movie-title" className="movie-title" />
+      <div className={`content ${movie.active? 'active': undefined}`}>
+        <img src={movie.titleImg} alt="Movie-title" className="movie-title" />
         <h4>
-          <span>year</span>
+          <span>{movie.year}</span>
           <span>
-            <i>age</i>
+            <i>{movie.ageLimit}</i>
           </span>
-          <span>length</span>
-          <span>category</span>
+          <span>{movie.length}</span>
+          <span>{movie.category}</span>
         </h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-          accusantium pariatur? Sapiente veritatis maiores quod odit ab, tempora
-          illum libero? Repudiandae accusamus corrupti asperiores aut ullam
-          praesentium, ut minima reiciendis.
+         {movie.description}
         </p>
         <div className="button">
           <Button

@@ -5,7 +5,7 @@
 
 .movieSwiper {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     width: 60vw;
@@ -17,8 +17,8 @@
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 150px;
-    height: 200px;
+    width: 120px;
+    height: 150px;
 }
 
 .swiper-slide img {
