@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./banner.css";
 import bgImg from "../images/bg-transformer.jpg";
-import titleImg from '../images/transformer-title.png'
+import MovieContent from "../components/MovieContent";
+import MovieDate from "../components/MovieDate";
+import PlayBtn from "../components/PlayBtn";
 
 const Banner = () => {
   const [movies, setMovies] = useState([]);
@@ -24,36 +26,11 @@ const Banner = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-6 col-md-12">
-              <div className="content active">
-                <img src={titleImg} alt="Movie-title" className="movie-title" />
-                <h4>
-                  <span>year</span>
-                  <span>
-                    <i>age</i>
-                  </span>
-                  <span>length</span>
-                  <span>category</span>
-                </h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Sequi, accusantium pariatur? Sapiente veritatis maiores quod
-                  odit ab, tempora illum libero? Repudiandae accusamus corrupti
-                  asperiores aut ullam praesentium, ut minima reiciendis.
-                </p>
-                <div className="button">button</div>
-              </div>
+              <MovieContent />
             </div>
             <div className="col-lg-6 col-md-12">
-              <div className="date active">
-                <h2>on 15th august</h2>
-              </div>
-
-              <div className="trailer active">
-                <a href="#" className="playBtn">
-                  <ion-icon name="play-outline"></ion-icon>
-                </a>
-                <p>Watch Trailer</p>
-              </div>
+              <MovieDate />
+              <PlayBtn/>
             </div>
           </div>
         </div>
