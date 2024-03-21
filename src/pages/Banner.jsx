@@ -15,6 +15,7 @@ const Banner = () => {
       .then((data) => setMovies(data))
       .catch((e) => console.log(e.message));
   };
+  
 
   useEffect(() => {
     fetchData();
