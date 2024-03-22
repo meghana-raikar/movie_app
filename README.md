@@ -26,11 +26,11 @@ Welcome to our Movie Magnet Website! This platform is designed to help movie ent
 
 2. Navigate to project directory: cd movie_app
 
-3.Install dependencies: npm install.
+3. Install dependencies: npm install.
 
 4. start the application: npm start.
 
-5.Access the website at `http://localhost:3000`.
+5. Access the website at `http://localhost:3000`.
 
 ## Contact
 
