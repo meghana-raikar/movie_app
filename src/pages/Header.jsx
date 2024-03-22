@@ -15,7 +15,7 @@ const Header = () => {
 
       <ul className="nav">
         {navListData.map((nav) => (
-          <NavListItem key={nav._id} nav={nav} />
+          <NavListItem key={nav._id} nav={nav}  />
         ))}
         {/* <NavListItem name="Home" />
       <NavListItem name="Schedule" /> */}
