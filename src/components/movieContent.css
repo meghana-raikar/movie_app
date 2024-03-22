@@ -23,12 +23,20 @@
 .banner .content h4 {
     color :rgba(255, 255, 2555, 0.6);
     font-weight: 200;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .banner .content h4 span {
     padding: 0 10px;
     border-right: 1px solid rgba(255, 255, 2555, 0.6);
+}
+.banner .content h4 span ion-icon {
+    margin-left: 5px;
+    margin-bottom: -2.5px;
+}
+
+.banner .content h4 span strong {
+     color: rgba(255, 255, 0, 0.829);
 }
 
 .banner .content h4 span:first-child {

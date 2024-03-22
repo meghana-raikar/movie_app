@@ -6,7 +6,7 @@ import Button from "./Button";
 const MovieContent = ({movie}) => {
   return (
     <>
-      <div className={`content ${movie.active? 'active': undefined}`}>
+      <div className={`content ${movie.active ? "active" : undefined}`}>
         <img src={movie.titleImg} alt="Movie-title" className="movie-title" />
         <h4>
           <span>{movie.year}</span>
@@ -15,10 +15,14 @@ const MovieContent = ({movie}) => {
           </span>
           <span>{movie.length}</span>
           <span>{movie.category}</span>
+          <span>
+            <strong>
+              {movie.rating}
+              <ion-icon name="star-outline"></ion-icon>
+            </strong>
+          </span>
         </h4>
-        <p>
-         {movie.description}
-        </p>
+        <p>{movie.description}</p>
         <div className="button">
           <Button
             icon={<ion-icon name="bookmark-outline"></ion-icon>}
@@ -27,7 +31,10 @@ const MovieContent = ({movie}) => {
             bgColor="white"
           />
 
-          <Button icon={<ion-icon name="add-outline"></ion-icon>}  name='MY LIST' />
+          <Button
+            icon={<ion-icon name="add-outline"></ion-icon>}
+            name="MY LIST"
+          />
         </div>
       </div>
     </>

@@ -12,6 +12,7 @@
     "length": "2h 07min",
     "category": "Adventure",
     "type": "coming",
+    "rating" : "4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": true
   },
@@ -28,6 +29,7 @@
     "length": "1h 56min",
     "category": "Thriller",
     "type": "coming",
+    "rating": "2",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -44,6 +46,7 @@
     "length": "2h 21min",
     "category": "Action",
     "type": "coming",
+    "rating": "5",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -60,6 +63,7 @@
     "length": "2h 48min",
     "category": "Action",
     "type": "coming",
+    "rating": "5",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -76,6 +80,7 @@
     "length": "1h 45min",
     "category": "Romance",
     "type": "coming",
+    "rating": "3",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -92,6 +97,7 @@
     "length": "2h 45min",
     "category": "Thriller",
     "type": "coming",
+    "rating": "4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -108,6 +114,7 @@
     "length": "1h 28min",
     "category": "Thriller",
     "type": "coming",
+    "rating": "4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -124,6 +131,7 @@
     "length": "1h 43min",
     "category": "Romance",
     "type": "coming",
+    "rating": "2",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -140,6 +148,7 @@
     "length": "1h 49min",
     "category": "Adventure",
     "type": "coming",
+    "rating": "3",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -156,6 +165,7 @@
     "length": "2h 02min",
     "category": "Adventure",
     "type": "coming",
+    "rating": "4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -172,6 +182,7 @@
     "length": "2h 14min",
     "category": "Romance",
     "type": "schedule",
+    "rating": "4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -188,6 +199,7 @@
     "length": "1h 33min",
     "category": "Action",
     "type": "schedule",
+    "rating": "4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -204,6 +216,7 @@
     "length": "1h 40min",
     "category": "Thriller",
     "type": "schedule",
+    "rating": "4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -220,6 +233,7 @@
     "length": "1h 40min",
     "category": "Horror",
     "type": "schedule",
+    "rating": "3",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
@@ -236,6 +250,7 @@
     "length": "2h 03min",
     "category": "Action",
     "type": "schedule",
+    "rating": "4",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   }
